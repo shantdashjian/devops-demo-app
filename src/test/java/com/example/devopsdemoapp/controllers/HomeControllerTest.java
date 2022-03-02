@@ -20,6 +20,6 @@ public class HomeControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(view().name("home"))
                 .andExpect(content().string(
-                        containsString("Welcome to Cheetah World: A Combination of Cute and Deadly!")));
+                        containsString("Welcome to the Cheetah Family!")));
     }
 }
